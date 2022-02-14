@@ -1,7 +1,7 @@
 name: Build and test of Java Project
 
 On: [push]
-Branches: [main]
+    Branches: [main]
 
 
 jobs:
@@ -14,5 +14,5 @@ steps:
     uses: actions/setup-java@v1
     with:
       Java-version: 1.8
-  -name: Build with Maven
-   run: mvn -B package --file pom.xml
+  - name: Build with Maven
+    run: mvn -B package --file pom.xml
