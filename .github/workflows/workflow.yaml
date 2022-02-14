@@ -1,8 +1,9 @@
 name: Build and test of Java Project
 
-on: push
-    Branches: [master]
-
+on: 
+  push:
+    Branches: 
+      - main
 
 jobs:
   Build:
