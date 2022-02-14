@@ -1,6 +1,6 @@
 name: Build and test of Java Project
 
-On: [push]
+on: [push]
     Branches: [main]
 
 
